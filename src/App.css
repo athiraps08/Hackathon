@@ -1,10 +1,51 @@
 .App {
   text-align: center;
-}
+  background-image: url(./images/img4.jpeg);
+  background-size: cover;
 
+  
+  position: fixed;
+  
+ 
+  background-color: rgb(68, 73, 73); 
+ 
+  /* background-blend-mode: screen; */
+  
+  background-attachment: fixed; 
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+/* body{
+  
+  background-image: url(./images/img4.jpeg);
+  background-size: cover;
+  display: flex;
+align-items: center;
+} */
+.Frnt{
+  text-align: center;
+  background-image: url(./images/good_food-wallpaper.jpeg);
+  background-size: cover;
+  position: fixed;
+  left: -50;
+  background-position: 0;
+  width: 100%;
+  height: 90%;
+  background-repeat:no-repeat ;
+}
+/* .Search{
+ 
+  position:fixed;
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.nav{
+  float: right;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,18 +55,21 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2f5cb659;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(116, 28, 28);
 }
 
 .App-link {
   color: #61dafb;
+}
+.App-div-GridView {
+  background-color:aqua;
 }
 
 @keyframes App-logo-spin {

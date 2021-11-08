@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Add from './Add';
 import View from './components/SearchFud';
-import GridView from './components/GridView';
+
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import DeleteFud from './components/DeleteFud';
 import UpdateFud from './components/UpdateFud';

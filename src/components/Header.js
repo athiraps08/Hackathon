@@ -13,7 +13,7 @@ const Header = () => {
                     <Link style={{textDecoration:"none"}} to="/add"><Typography  variant="h6" style={{color:"#ffffff",padding:20,fontFamily:"monospace"}}>Add Recipe</Typography></Link>
                     <Link style={{textDecoration:"none"}} to="/search"><Typography variant="h6"  style={{color:"#ffffff",padding:20,fontFamily:"monospace"}}>Search Recipe </Typography></Link> 
                     <Link style={{textDecoration:"none"}} to="/update"><Typography variant="h6"  style={{color:"#ffffff",padding:20,fontFamily:"monospace"}}>Update Recipe</Typography></Link> 
-                    <Link style={{textDecoration:"none"}} to="/delete"><Typography  variant="h6" style={{color:"#ffffff",padding:20,fontFamily:"monospace",leftpadding:50,textAlign:"right"}}>Remove Recipe</Typography></Link>
+                    <Link style={{textDecoration:"none"}} to="/delete"><Typography  variant="h6" style={{color:"#ffffff",padding:20,fontFamily:"monospace"}}>Remove Recipe</Typography></Link>
                      
                    
                 </Toolbar>

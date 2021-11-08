@@ -21,7 +21,7 @@ const Add = () => {
             <TextField   variant="filled" onChange={setValue} value={value.dish} name="dish" margin="normal"  label="Enter name of the Dish" fullWidth ></TextField>
             
             <TextField onChange={setValue} style={{borderColor:"#ffffff",borderWidth:"7"}} value={value.category} name="category" margin="normal" label="Category" fullWidth variant="filled" ></TextField>
-     <TextField onChange={setValue} value={value.ingredients} name="ingredients" margin="normal" label="Ingredients Required" fullWidth variant="filled"></TextField>
+            <TextField onChange={setValue} value={value.ingredients} name="ingredients" margin="normal" label="Ingredients Required" fullWidth variant="filled"></TextField>
             <TextField onChange={setValue} value={value.receipe} name="receipe" margin="normal" label="Recipe" fullWidth variant="filled"></TextField>
             <TextField onChange={setValue} value={value.time} name="time" margin="normal" label="Time for preparation" fullWidth variant="filled"></TextField>
             <TextField onChange={setValue} value={value.nutrition} name="nutrition" margin="normal" label="Nutrition Information" fullWidth variant="filled"></TextField><br></br>

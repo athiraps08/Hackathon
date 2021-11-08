@@ -1,7 +1,7 @@
 import { Button, TextField, Typography } from '@material-ui/core'
 import axios from 'axios'
 import React from 'react'
-import useForm from './components/Read'
+import useForm from './Read'
 
 const Add = () => {
     var [value,setValue]=useForm({dish:"",category:"",ingredients:"",receipe:"",time:"",nutrition:""})

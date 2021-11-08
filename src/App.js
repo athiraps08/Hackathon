@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import Add from './Add';
+import Add from './components/Add';
 import View from './components/SearchFud';
 
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
